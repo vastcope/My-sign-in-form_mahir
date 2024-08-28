@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My login</title>
+    <style>
+        body {
+            background-color: #83d3a9;
+            box-sizing: border-box;
+        }
+
+        .main_thing_of_login_form {
+            background-color: #ffffff;
+            height: 500px;
+            width: 450px;
+            border-radius: 15px;
+            margin-left: 430px;
+            margin-top: 50px;
+            box-shadow: 1px 1px 1pc 1px rgba(0, 0, 0, 0.308);
+
+        }
+
+
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .main {
+            margin-left: 550px;
+            color: white;
+            padding-top: 120px;
+
+        }
+
+        .login-container {
+
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .login-container h2 {
+            margin-bottom: 1rem;
+        }
+
+        .login-container label {
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+
+        .login-container input {
+            width: 350px;
+            padding: 0.75rem;
+            margin-bottom: 1rem;
+            border: 1px solid #ccc;
+            font-size: 20px;
+        }
+
+        .login-container button {
+            width: 200px;
+            padding: 0.75rem;
+            border: none;
+            border-radius: 4px;
+            background-color: #0b847a;
+            color: white;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <div class="main_thing_of_login_form">
+
+        <div class="login-container">
+            <br><br><br>
+            <h2 style="color: #3f847b; text-align: center;">Login</h2>
+            <form action="/login" method="post">
+<br>
+                    <label for="username"></label>
+                    <i class="fa-solid fa-person"></i>
+                    <input type="text" id="username" name="username" required placeholder="Username">
+           
+<br><br><b><br></b>
+     
+                    <label for="password"><label>
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password" id="password" name="password" required placeholder="Password">
+            
+                  <li style="text-decoration: dotted;"><a href="#" style="text-decoration: none; color: black;">Show Password</a></li>
+                  <br>
+                  <br>
+                  <br>
+                <button style="margin-left: 92px;">Sign up</button>
+
+                <h3 style="text-align: center;">Forgotten <a href="#" style="text-decoration: none;">Username </a>/ <a href="#" style="text-decoration: none;">Password</a>?</h3>
+                <h3 style="text-decoration: none; text-align: center;">Don't Have an account? <a href="#" style="text-decoration: none;"> Sign in</a></h3>
+            </form>
+        </div>
+    </div>
+    </div>
+    </div>
+</body>
+
+</html>
